@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pendaftaran</title>
+</head>
+<body>
+    <h2>Input Pendaftaran</h2>
+    <form action="process_input_pendaftaran.php" method="post" enctype="multipart/form-data">
+        <label for="nama_siswa">Nama Pendaftar:</label>
+        <input type="text" id="nama_siswa" name="nama_siswa" required><br>
+        <label for="umur">Umur</label>
+        <input type="text" id="umur" name="umur" required><br>
+        <label for="tanggal_pendaftaran">Tanggal Selesai:</label>
+        <input type="date" id="tanggal_pendaftaran" name="tanggal_pendaftaran" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
